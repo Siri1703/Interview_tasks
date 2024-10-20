@@ -79,7 +79,7 @@ Ensure that the solution can scale to handle thousands or millions of requests p
 * Open Terminal in the Project folder and switch to server folder<br />
 * Execute command ```npm i```<br />
 * Run ```node rateLimit.js``` <br />
-* open your browser and navigate to https://localhost:3000<br />
+* open your browser and navigate to http://localhost:3000<br />
 * Hit the page for 10 times in timespan of 1 minute<br />
 * It displays too many requests.<br />
 * Request is again acceptable after a minute<br />
